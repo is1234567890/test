@@ -54,5 +54,4 @@ public class Child extends Parent {
 	private String b(String arg, String arg2) {
 		return arg.concat(arg2).concat("です。");
 	}
-
 }
