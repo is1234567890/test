@@ -18,6 +18,9 @@ public class Child extends Parent {
 	/** フィールド変数コメント */
 	private final String CHILD = "child";
 	
+	/** フィールド変数コメント */
+	private final String TARO = "太郎";
+	
 	/**
 	 * メソッドコメント（public:どこからでも使用できる）.<br/>
 	 * 
@@ -29,6 +32,7 @@ public class Child extends Parent {
 	public void a() {
 		super.a();
 		System.out.println(b(CHILD));
+		System.out.println(b(CHILD, TARO));
 	}
 	
 	/**
@@ -39,6 +43,16 @@ public class Child extends Parent {
 	 */
 	private String b(String arg) {
 		return arg.concat("です。");
+	}
+	
+	/**
+	 * 文字列連結（private:このクラスしか使えない）.<br/>
+	 * 
+	 * @param arg メソッド引数
+	 * @return 変換した文字列
+	 */
+	private String b(String arg, String arg2) {
+		return arg.concat(arg2).concat("です。");
 	}
 
 }
