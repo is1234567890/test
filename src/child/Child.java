@@ -7,9 +7,10 @@ import parent.Parent;
  * 
  * <p>
  * Parentクラスを継承して、aメソッドをオーバーライドします。
+ * ↓はアノテーション＋作成情報の書き方
  * </p>
  * 
- * @author SOU
+ * @author SI
  * @since 2025/04/03
  * @version 1.0
  */
