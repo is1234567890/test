@@ -6,7 +6,7 @@ import parent.Parent;
  * 子クラス.<br/>
  * 
  * <p>
- * Parentクラスを継承して、aメソッドをオーバーライド（ポリモーフィズム）します。
+ * Parentクラスを継承して、aメソッドをオーバーライドします。
  * </p>
  * 
  * @author SOU
@@ -38,6 +38,10 @@ public class Child extends Parent {
 	/**
 	 * 文字列連結（private:このクラスしか使えない）.<br/>
 	 * 
+	 * <p>
+	 * オーバーロード.
+	 * </p>
+	 * 
 	 * @param arg メソッド引数
 	 * @return 変換した文字列
 	 */
@@ -47,7 +51,11 @@ public class Child extends Parent {
 	
 	/**
 	 * 文字列連結（private:このクラスしか使えない）.<br/>
-	 * 
+	 *
+	 * <p>
+	 * オーバーロード.
+	 * </p>
+
 	 * @param arg メソッド引数
 	 * @return 変換した文字列
 	 */
